@@ -11,7 +11,7 @@ In this exercise, we will be exploring the Harmory knowledge graph (KG) through 
 ## Ontology Diagram
 
 
-![ontology](https://github.com/andreamust/semantic-music-lecture/assets/44606182/82d5e4b1-2f01-443d-af83-46ca86764a9e)
+![ontology](https://github.com/andreamust/semantic-music-lecture/assets/44606182/43cf1a06-2377-4041-ad84-8c3096355023)
 
 
 ## Competency Questions (CQs)
