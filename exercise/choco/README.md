@@ -13,11 +13,11 @@ In this exercise, we will be exploring the ChoCo knowledge graph (KG) through SP
 
 ### JAMS Annotation
 
-![image](https://github.com/andreamust/semantic-music-lecture/assets/44606182/101c9729-1adc-44ef-b505-9a5d751fc25b)
+![image](https://github.com/andreamust/semantic-music-lecture/assets/44606182/ef6d0191-5f56-4fd3-901a-78ba6c3c74fb)
 
 ### JAMS Observation
 
-![image](https://github.com/andreamust/semantic-music-lecture/assets/44606182/170c6ccb-2577-463b-8b53-81e4e34b1ca7)
+![image](https://github.com/andreamust/semantic-music-lecture/assets/44606182/60a71f93-acc7-465c-acda-79ea12e6d2c3)
 
 
 ## Competency Questions (CQs)
