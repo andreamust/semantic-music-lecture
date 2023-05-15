@@ -1,0 +1,18 @@
+# CQ: What is the most common pattern?
+
+PREFIX har: <http://w3id.org/polifonia/harmory/>
+PREFIX mf:  <http://w3id.org/polifonia/musical-features/>
+PREFIX core:  <http://w3id.org/polifonia/core/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX co: <http://purl.org/ontology/co/core#>
+
+select ?pattern (COUNT(?track) AS ?num)
+where {
+  ?track har:containsSegmentPattern ?pattern.
+}
+GROUP BY ?pattern
+ORDER BY DESC(?num)
+LIMIT 1
+
+# Result: har:0.0_0.0_0.0_0.0_0.0_0.0_0.0_0.0_0.0_0.0 => 52 

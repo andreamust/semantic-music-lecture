@@ -1,0 +1,19 @@
+# CQ: For a given pattern, which are the tracks (titles, artists and genres) in which the pattern can be found?
+
+PREFIX har: <http://w3id.org/polifonia/harmory/>
+PREFIX mf:  <http://w3id.org/polifonia/musical-features/>
+PREFIX core:  <http://w3id.org/polifonia/core/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX co: <http://purl.org/ontology/co/core#>
+
+select ?pattern ?title ?genre ?artist
+where {
+  ?pattern rdf:type har:SegmentPattern.
+  ?track har:containsSegmentPattern ?pattern.
+  OPTIONAL { ?track core:hasTitle ?title. }
+  OPTIONAL { ?track core:hasGenre ?genre. }
+  OPTIONAL { ?track core:hasArtist ?artist. }
+}
+ORDER BY ?pattern ?title
+LIMIT 100
