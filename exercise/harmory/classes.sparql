@@ -1,0 +1,7 @@
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+
+select distinct ?class (COUNT(?instance) AS ?num)
+where {
+  ?instance rdf:type ?class.
+}
+GROUP BY ?class

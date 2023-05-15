@@ -1,0 +1,13 @@
+# CQ: How many tracks does the dataset contain?
+
+PREFIX core:  <http://w3id.org/polifonia/core/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX co: <http://purl.org/ontology/co/core#>
+
+select (COUNT(?track) AS ?num)
+where {
+  ?track rdf:type core:MusicalWork.
+}
+
+# Output: 1792
