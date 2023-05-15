@@ -9,6 +9,16 @@ In this exercise, we will be exploring the ChoCo knowledge graph (KG) through SP
 | SPARQL Endpoint        | [ChoCo SPARQL Endpoint](https://polifonia.disi.unibo.it/choco/sparql)         |
 | Ontology Documentation | [ChoCo Ontology Documentation](https://polifonia-project.github.io/jams-ontology/)         |
 
+## Ontology Diagram
+
+### JAMS Annotation
+
+![image](https://github.com/andreamust/semantic-music-lecture/assets/44606182/101c9729-1adc-44ef-b505-9a5d751fc25b)
+
+### JAMS Observation
+
+![image](https://github.com/andreamust/semantic-music-lecture/assets/44606182/170c6ccb-2577-463b-8b53-81e4e34b1ca7)
+
 
 ## Competency Questions (CQs)
 
